@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header-section {
+    padding-top: 20px;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+ul li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.header-left {
+    padding: 20px 0px 20px 0px;
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.header-right {
+    margin-left: 100px;
+    padding: 20px 0px 20px 0px;
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+
+.primary-button {
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    width: 125px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    color: gray;
+    background-color: aquamarine;
+}
+
+.intro-section {
+    width: 100%;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.intro-left {
+    justify-content: center;
+    width: 50%;
+    float: left;
+}
+
+.intro-right {
+    padding: 20px 0px 20px 0px;
+    width: 50%;
+    float: right;
+}
+
+.intro-right h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.intro-right p {
+    align-items: flex-start;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.about-section h1,
+p {
+    padding: 30px 0px;
+}
+
+.about-content {
+    width: 20%;
+    display: inline-block;
+    margin: 0px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px;
+    height: 250px;
+
+}
+
+.offer-section {
+    text-align: center;
+    padding: 40px;
+    width: 95%;
+}
+
+.offer-section h1 {
+    padding: 50px;
+}
+
+.offer-content {
+    width: 30%;
+    display: inline-block;
+    margin: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 2px;
+    height: 300px;
+    justify-content: center;
+}
+
+.offer-button {
+    padding-top: 50px;
+}
+
+.count-section {
+    background-color: black;
+    color: white;
+}
+
+.count-content {
+    padding: 200px 0px;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.testimonial-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-section h1 {
+    padding: 30px;
+}
+
+.testimonial-section p {
+    padding: 10px 100px;
+}
+
+.contact-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-left {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.contact-right {
+    float: right;
+    width: 50%;
+    display: flex;
+}
+
+.footer-section {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-left {
+    width: 30%;
+    float: left;
+    padding: 40px;
+}
+
+.footer-right {
+    width: 60%;
+    float: right;
+    text-align: center;
+}
